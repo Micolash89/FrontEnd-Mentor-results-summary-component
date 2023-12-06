@@ -1,47 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/estilos.css">
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <main class="main">
 
-  Your Result
-  76
-  of 100
+    <section class="main__section section1">
+      <h1 class="main__section1--titulo">
+        Your Result
+      </h1>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <span class="main__section1--promedio">
+        <strong>
 
-  Reaction
-  80 / 100
+          76
+        </strong>
+        of 100
+      </span>
 
-  Memory
-  92 / 100
+      <h2 class="main__section1--respuesta">
+        Great
 
-  Verbal
-  61 / 100
+      </h2>
 
-  Visual
-  72 / 100
+      <p class="main__section1--descripcion">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
 
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </section>
+
+    <section class="main__section section2">
+      <h2 class="main__section2">
+        Summary
+      </h2>
+
+      <section class="main__section2--stats">
+        <div class="stats">
+          <i><img src="" alt=""></i>
+          <div>
+            <span>Reaction</span>
+            <span><strong>
+                80
+              </strong> / 100
+            </span>
+          </div>
+        </div>
+        <div class="stats">
+          <i><img src="" alt=""></i>
+          <div><span>Memory</span><span><strong>92</strong> / 100</span></div>
+        </div>
+        <div class="stats">
+          <i><img src="" alt=""></i>
+          <div><span>Verbal</span><span><strong>61</strong> / 100</span></div>
+        </div>
+        <div class="stats">
+          <i><img src="" alt=""></i>
+          <div><span>Visual</span><span><strong>72</strong> / 100</span></div>
+        </div>
+      </section>
+
+      <button class="main__section2--button">
+        Continue
+      </button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Micolash89/FrontEnd-Mentor-results-summary-component">Micolash89</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
