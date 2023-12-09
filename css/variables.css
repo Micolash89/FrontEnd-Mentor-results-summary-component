@@ -1,8 +1,12 @@
 :root {
   --Light-red: hsl(0, 100%, 67%);
+  --Light-red-tranparent: hsla(0, 100%, 67%, 0.06);
   --Orangey-yellow: hsl(39, 100%, 56%);
+  --Orangey-yellow-tranparent: hsl(39, 100%, 56%, 0.06);
   --Green-teal: hsl(166, 100%, 37%);
+  --Green-teal-tranparent: hsl(166, 100%, 37%, 0.06);
   --Cobalt-blue: hsl(234, 85%, 45%);
+  --Cobalt-blue-tranparent: hsl(234, 85%, 45%, 0.06);
 
   /* ## Gradients */
 
@@ -19,7 +23,10 @@
   --Light-lavender: hsl(241, 100%, 89%);
   --Dark-gray-blue: hsl(224, 30%, 27%);
 
-  --radius1: 12px;
+  --radius1: 25px;
+  --radius2: 8px;
+  --radius3: 50px;
+  --radius100: 100%;
 
   --txt1: 1rem;
 }
