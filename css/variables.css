@@ -15,6 +15,7 @@
 
   --Violet-blue: hsla(256, 72%, 46%, 1); /*(circle)*/
   --Persian-blue: hsla(241, 72%, 46%, 0); /*(circle)*/
+  --Persian-blue1: hsl(241, 72%, 46%); /*(circle)*/
 
   /* ### Neutral */
 
@@ -28,5 +29,10 @@
   --radius3: 50px;
   --radius100: 100%;
 
-  --txt1: 1rem;
+  --txt1: 1.875rem; /*30*/
+  --txt2: 1.125rem; /*18*/
+  --txt3: 1.563rem; /*25*/
+  --txt4: 1.688rem; /*27*/
+  --txt5: 1.25rem; /*20*/
+  --txt6: 3.125rem; /*50*/
 }
